@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<link href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="page1" data-theme="a">
+  <div data-role="header" data-position="fixed">
+    <h1>Restaurant Picks</h1>
+  </div>
+  <div data-role="content">
+    <div class="logo"><img src="img/logo.png"></div>
+    <ul data-inset="true" data-role="listview" data-theme="c">
+      <li><a href="#asian">Asian</a></li>
+      <li><a href="#bbq">BBQ</a> </li>
+      <li><a href="#italian">Italian</a> </li>
+      <li><a href="#mexican">Mexican</a></li>
+      <li><a href="#veggie">Vegetarian</a></li>
+    </ul>
+  </div>
+  
+</div>
+<div data-role="page" id="asian" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+    <h1>Restaurant Picks</h1>
+  </div>
+  <div data-role="content">
+    <div class="addr"><img src="img/homeThumb_one_ton_ono.png" class="thumbnail" width="30%">
+      <h2>Sushi Heaven</h2>
+      <p>5229 Morning Glory Rd <span class="details">Hours: 11am - 10pm</span><span class="details">Price: $$$</span><span class="details">Web: sushiheaven.mer</span></p>
+      <div data-role="controlgroup" data-type="horizontal" ><a href="#map" data-role="button" data-inline="false" class="mapIt">Map It</a><a href="tel://4907774116" data-role="button" data-inline="false">Call</a></div>
+    </div>
+    <p class="clearboth">Forget grabbing your sushi from little boats sailing past your table on a moat. We send our signature rolls your way in baskets floating through the air, suspended by minature balloons and blimps. Go ahead, reach up and grab the roll of your choice, as if you're plucking it out of heaven itself.</p>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Meridien 24/7</h4>
+  </div>
+</div>
+<div data-role="page" id="bbq" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+    <h1>Restaurant Picks</h1>
+  </div>
+  <div data-role="content">
+    <div class="addr"><img src="img/homeThumb_stovetop_surprise.png" class="thumbnail" width="30%">
+      <h2>Lake Wallaby BBQ</h2>
+      <p>975 Sunset Drive <span class="details">Hours: 2pm - 11pm</span><span class="details">Price: $$$$</span><span class="details">Web: wallabybbq.mer</span></p>
+      <div data-role="controlgroup" data-type="horizontal" ><a href="#map" data-role="button" data-inline="false" class="mapIt">Map It</a><a href="tel://4907774116" data-role="button" data-inline="false">Call</a></div>
+    </div>
+    <p class="clearboth"> G'day, Mate! meridien boasts the only absolutely 100% authentic Aussie barbie outside of Australia. As sure as Bob's your uncle, you won't find croc, roo or emu on this menu. It's the usual fare for fire: prawns, chicken or beef.</p>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Meridien 24/7</h4>
+  </div>
+</div>
+<div data-role="page" id="italian" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+    <h1>Restaurant Picks</h1>
+  </div>
+  <div data-role="content">
+    <div class="addr"><img src="img/homeThumb_il_piatto.png" class="thumbnail" width="30%">
+      <h2>Il Piatto Di Pasta</h2>
+      <p>9950 Villa Road <span class="details">Hours: 10am - 9pm</span><span class="details">Price: $$</span><span class="details">Web: pastatime.mer</span></p>
+      <div data-role="controlgroup" data-type="horizontal" ><a href="#map" data-role="button" data-inline="false" class="mapIt">Map It</a><a href="tel://4907774116" data-role="button" data-inline="false">Call</a></div>
+    </div>
+    <p class="clearboth"> You can't get them to eat their vegetables. You can't get them to eat much. Chances are there is only one food your child will eat with pleasure — pasta! We're here for you.</p>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Meridien 24/7</h4>
+  </div>
+</div>
+<div data-role="page" id="mexican" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+    <h1>Restaurant Picks</h1>
+  </div>
+  <div data-role="content">
+    <div class="addr"><img src="img/homeThumb_yum_pho_you.png" class="thumbnail" width="30%">
+      <h2>Meridien Mexican Grill</h2>
+      <p>2157 Misty Pine Ave. <span class="details">Hours: 4pm - 2am</span><span class="details">Price: $$</span><span class="details">Web: mexicangrill.mer</span></p>
+      <div data-role="controlgroup" data-type="horizontal" ><a href="#map" data-role="button" data-inline="false" class="mapIt">Map It</a><a href="tel://4907774116" data-role="button" data-inline="false">Call</a></div>
+    </div>
+    <p class="clearboth"> Urban foodies know the Meridien Mexican Grill is always a pleasant surprise. Right after the menus arrive and just before the chips and salsa, someone at your table notices. There is no grill!</p>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Meridien 24/7</h4>
+  </div>
+</div>
+<div data-role="page" id="veggie" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+    <h1>Restaurant Picks</h1>
+  </div>
+  <div data-role="content">
+    <div class="addr"><img src="img/homeThumb_small_plates.png" class="thumbnail" width="30%">
+      <h2>Uptown Sprouts</h2>
+      <p>7547 W. 3rd St. <span class="details">Hours: 10am - 9pm</span><span class="details">Price: $</span><span class="details">Web: uptownsprouts.mer</span></p>
+      <div data-role="controlgroup" data-type="horizontal" ><a href="#map" data-role="button" data-inline="false" class="mapIt">Map It</a><a href="tel://4907774116" data-role="button" data-inline="false">Call</a></div>
+    </div>
+    <p class="clearboth"> Our owner and founder proudly says, "If it had a face, this ain't the place." Yes, we are honored to serve you everything that never had a mother, a thought, or an instinct. It's all vegan, all the time.</p>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Meridien 24/7</h4>
+  </div>
+</div>
+<div data-role="page" id="map" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed">
+    <h1>Page Header</h1>
+  </div>
+  <div data-role="content">
+  	<p class="errorMsg">Your location could not be determined.</p>
+    <div id="gMap"></div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h4>Meridien 24/7</h4>
+  </div>
+</div>
+<div data-role="page" id="loader" data-theme="a">
+  <div data-role="content">
+    <div id="loading"></div>
+</div>
+</body>
+</html>
